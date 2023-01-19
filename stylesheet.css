@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+  height: 65px;
+  width: 100%;
+  background-color:black;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  color: white;
+}
+.header-left h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 32px;
+}
+.header-left{
+    float: left;
+    position: relative;
+}
+.header-list{
+    float: left;
+    padding: 33px 20px; 
+    color: white;
+    display: inline;
+    position: relative;
+}
+.header-list li{
+    display: block;
+    float: left;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+.top-w{
+    background-color: white;
+    color:rgb(20, 19, 19) ;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.c-container h1{
+    font-size:180px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.c-container h2{
+    font-weight: lighter;
+    font-size: 100px;
+    text-align: center;
+    font-family: arial;
+}
+.ninjaken{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    height: 500px;
+    display: flex;
+}
+.a-container h1{
+    font-size: 50px;
+    margin-top: 150px;
+}
+.pict-cont{
+  height: 500px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.gambar{
+    float: left;
+    width: 33%%;
+    position: relative;
+}
+.i{
+    
+    padding-left: 100px;
+    width: 300px;
+    position:relative;
+}
+.gambar p{
+    padding-left: 10px;
+    display: inline-block;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  }
+.contact{
+    background-color: rgb(194, 194, 194);
+    position: relative;
+    display: block;
+}
+.e-container{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+.e-container h1{
+    padding-top: 70px;
+}
+input, textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+    border-radius: 10px;
+  }
+.contact-submit{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: gold;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+    display: block;
+}
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+.footer-list{
+    float: right;
+    padding-right: 20px;
+}
+.footer-list li{
+    padding-bottom: 20px;
+    text-align: right;
+}
+span{
+    color:gold ;
+}
+@media (max-width: 670px) {
+    *{
+        box-sizing: border-box;
+    }
+    .i{
+        width: 150px;
+        padding-left: 70px;
+        display: flex;
+    }
+    .e-container h1{
+        text-align: center;
+    }
+    .c-container{
+        font-size: 100px;
+    }
+}
